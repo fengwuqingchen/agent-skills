@@ -1,0 +1,3 @@
+interface:
+  display_name: "项目开发流程 Skill 生成器"
+  short_description: "根据目标项目事实生成简化、推送检查、文本规范、文档和代码审核五类 Skill"
