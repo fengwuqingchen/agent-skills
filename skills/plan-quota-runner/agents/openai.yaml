@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan 跨5h额度续跑"
+  short_description: "仅有5小时限额时跨窗口续跑，避开实际使用时段"
+  default_prompt: "仅当我的账号存在5小时额度窗口时，使用 $plan-quota-runner 执行我的 plan；避开我给出的实际使用日期和时段，不预留周额度，充分利用其他时间（包括深夜），允许跨周刷新续跑，近耗尽按授权使用重置卡，直到验收完成。"
